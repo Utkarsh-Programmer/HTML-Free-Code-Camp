@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Utkarsh Yadav" />
+		<meta
+			name="description"
+			content="This page contains all those things, I've learned about links in HTML.  " />
+		<link rel="icon" href="favicon.jpg" type="image/x-icon" />
+		<title>Links</title>
+	</head>
+	<body>
+		<h1>Links</h1>
+
+		<hr />
+
+		<!-- nav element is used to make navigation area. It is a semantic element -->
+		<nav>
+			<ul>
+				<li>
+					<!-- anchor link/link on same page -->
+					<a href="#learn">Learn HTML</a>
+				</li>
+
+				<li>
+					<a href="#vacation">Planning a Vacation</a>
+				</li>
+			</ul>
+		</nav>
+
+		<hr />
+
+		<!-- section element separates different sections of a web page. It is a semantic element-->
+		<!-- id attribute specifies a unique name/id for a HTML element. -->
+		<section id="learn">
+			<h2>I am ready to learn HTML.</h2>
+			<p>Here, I am learning basics of text in HTML.</p>
+
+			<h3>My Daily Schedule</h3>
+			<p>Let me tell you how :</p>
+			<ol>
+				<li>...I learn more about Web Development.</li>
+				<li>...I plan out my schedule.</li>
+				<li>
+					...I use resources from
+					<abbr title="Mozilla Developer Network">
+						<!-- a element is used to make links on the web page. -->
+						<!-- absolute/external link -->
+						<a href="https://developer.mozilla.org/en-US/">
+							MDN
+						</a> </abbr
+					>.
+				</li>
+			</ol>
+		</section>
+
+		<hr />
+
+		<section id="vacation">
+			<h2>I Am Also Planning For a Vacation</h2>
+			<p>I've been working hard and <em>really need a getaway.</em></p>
+			<p>I live in Ghaziabad, UttarPradesh, India.</p>
+			<p>I want to visit South Indian Culture.</p>
+
+			<!-- add places you want to visit -->
+			<h3>Places I'd Like to Visit</h3>
+			<ul>
+				<li>
+					<p>Mathura, Vrindavan, Iskon Temple, South India</p>
+				</li>
+
+				<li>
+					<p>I've heard good things about here :</p>
+					<address>
+						Lonavala - Khandal, Maharashtra <br />
+						Gokarna, Karnataka <br />
+						Kasauli, Himachal Pradesh
+					</address>
+				</li>
+			</ul>
+
+			<!-- add places you want to avoid -->
+			<h3>Places I Want to Avoid</h3>
+			<dl>
+				<dt>East Antarctica Plateau :</dt>
+				<dd>
+					I heard this is the <strong>coldest</strong> place on Earth.
+				</dd>
+
+				<dt>Death Valley :</dt>
+				<dd>
+					I heard this is the <strong>hottest</strong> place on Earth.
+				</dd>
+
+				<dt>Snake Island :</dt>
+				<dd>I heard there are 5 snakes per square meter.</dd>
+			</dl>
+		</section>
+		<hr />
+
+		<!-- relative/internal link -->
+		&lt;&lt;&lt;&copy; <a href="about.html">Utkarsh Yadav</a> &gt;&gt;&gt;
+
+		<p>
+			<a href="#">Back to Top</a>
+		</p>
+	</body>
+</html>
+
+<!-- Link Naming Conventions: -->
+<!-- 1) Avoid printing the full web address to the page. -->
+<!-- 2) Avoid 'link to' phrase, because we all know it's a link. -->
+<!-- 3) Keep your link text short, exact topic, not sentences. -->
+<!-- 4) No links that say 'click here', because it provides no meaning. -->

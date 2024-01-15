@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Utkarsh Yadav" />
+		<meta
+			name="description"
+			content="This page contains all those things, I've learned about links in HTML.  " />
+		<link rel="icon" href="favicon.jpg" type="image/x-icon" />
+		<title>Images</title>
+	</head>
+	<body>
+		<h1>Images</h1>
+
+		<hr />
+
+		<nav>
+			<ul>
+				<li>
+					<a href="#learn">Learn HTML</a>
+				</li>
+
+				<li>
+					<a href="#vacation">Planning a Vacation</a>
+				</li>
+			</ul>
+		</nav>
+
+		<hr />
+
+		<section id="learn">
+			<h2>I am ready to learn HTML.</h2>
+			<p>Here, I am learning basics of text in HTML.</p>
+			<!-- img tag is used to show images on the web page. -->
+			<!-- using width and height attribute is recommended by the developers for 'cumulative layout shift'. -->
+			<img
+				src="Img/html-image.jpg"
+				alt="HTML5 Logo"
+				title="This is the HTML5 Logo."
+				width="350"
+				height="300" />
+
+			<!-- figure element is used to represent a figure in the web page and intent it. Not only used for images, it can be empty as well. -->
+			<figure>
+				<!-- figcaption element is used to represent the caption about the figure inside the figure element. It can either be at top or at bottom. -->
+				<figcaption>Example of HTML5 code.</figcaption>
+
+				<!-- code element is used to represent the code. -->
+				<code>&lt;h1&gt;Hello World!&lt;/&gt;</code>
+			</figure>
+
+			<h3>My Daily Schedule</h3>
+			<p>Let me tell you how :</p>
+			<ol>
+				<li>...I learn more about Web Development.</li>
+				<li>...I plan out my schedule.</li>
+				<li>
+					...I use resources from
+					<abbr title="Mozilla Developer Network">
+						<a href="https://developer.mozilla.org/en-US/">
+							MDN
+						</a> </abbr
+					>.
+				</li>
+			</ol>
+		</section>
+
+		<hr />
+
+		<section id="vacation">
+			<h2>I Am Also Planning For a Vacation</h2>
+			<p>I've been working hard and <em>really need a getaway.</em></p>
+			<p>I live in Ghaziabad, UttarPradesh, India.</p>
+			<p>I want to visit South Indian Culture.</p>
+
+			<!-- these br tags help in showing the the work of loading="lazy" in the 'Network Monitor' in Browser on inspecting. -->
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+			<!-- add places you want to visit -->
+			<h3>Places I'd Like to Visit</h3>
+			<ul>
+				<li>
+					<p>South India</p>
+
+					<figure>
+						<!-- loading="eager" is the default value. -->
+						<!-- loading="lazy" helps in fast loading of pages. -->
+						<img
+							src="Img/south-india.jpg"
+							alt="South Indian View"
+							title="South Indian View"
+							width="300"
+							height="300"
+							loading="lazy" />
+
+						<figcaption>South India Getaway.</figcaption>
+					</figure>
+				</li>
+
+				<li>
+					<p>I've heard good things about here :</p>
+					<address>
+						Lonavala - Khandal, Maharashtra <br />
+						Gokarna, Karnataka <br />
+						Kasauli, Himachal Pradesh
+					</address>
+
+					<figure>
+						<img
+							src="Img/vacation-image.jpg"
+							alt="My Vacation"
+							title="It's around 10 o'Clock at the beach."
+							width="300"
+							height="300"
+							loading="lazy" />
+
+						<figcaption>My vacation Image</figcaption>
+					</figure>
+				</li>
+			</ul>
+
+			<!-- add places you want to avoid -->
+			<h3>Places I Want to Avoid</h3>
+			<dl>
+				<dt>East Antarctica Plateau :</dt>
+				<dd>
+					I heard this is the <strong>coldest</strong> place on Earth.
+				</dd>
+
+				<dt>Death Valley :</dt>
+				<dd>
+					I heard this is the <strong>hottest</strong> place on Earth.
+				</dd>
+
+				<dt>Snake Island :</dt>
+				<dd>I heard there are 5 snakes per square meter.</dd>
+			</dl>
+		</section>
+		<hr />
+
+		&lt;&lt;&lt;&copy; <a href="about.html">Utkarsh Yadav</a> &gt;&gt;&gt;
+
+		<p>
+			<a href="#">Back to Top</a>
+		</p>
+	</body>
+</html>

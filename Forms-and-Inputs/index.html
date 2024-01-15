@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Utkarsh Yadav" />
+		<meta
+			name="description"
+			content="This page contains all those things, I've learned about forms and inputs in HTML." />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="favicon.jpg" type="image/x-icon" />
+		<title>Forms and Inputs</title>
+	</head>
+	<body>
+		<header>
+			<h1>Semantic ELements</h1>
+
+			<nav aria-label="primary-navigation">
+				<ul>
+					<li>
+						<a href="#learn">Learn HTML</a>
+					</li>
+
+					<li>
+						<a href="#vacation">Planning a Vacation</a>
+					</li>
+
+					<li>
+						<a href="#contact">Contact Me</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<hr />
+
+		<!-- main content -->
+		<main>
+			<article>
+				<h2>I am ready to learn HTML.</h2>
+				<p>Here, I am learning basics of text in HTML.</p>
+
+				<section id="learn">
+					<h3>HTML5</h3>
+					<img
+						src="Img/html-image.jpg"
+						alt="HTML5 Logo"
+						title="This is the HTML5 Logo."
+						width="350"
+						height="300" />
+
+					<figure>
+						<figcaption>Example of HTML5 code :</figcaption>
+
+						<p>
+							<code>&lt;h1&gt;Hello World!&lt;/&gt;</code>
+						</p>
+					</figure>
+				</section>
+
+				<section>
+					<h3>My Daily Schedule</h3>
+					<p>Let me tell you how :</p>
+					<ol>
+						<li>...I learn more about Web Development.</li>
+						<li>...I plan out my schedule.</li>
+						<li>
+							...I use resources from
+							<abbr title="Mozilla Developer Network">
+								<a href="https://developer.mozilla.org/en-US/">
+									MDN
+								</a> </abbr
+							>.
+						</li>
+					</ol>
+
+					<aside>
+						<details>
+							<summary>
+								Guess the <mark>number of hours</mark> I code
+								each day :
+							</summary>
+							<p>
+								I start coding at
+								<time datetime="03:00"> 3AM</time>, and code
+								around <time datetime="PT3H"> 6 hours</time> a
+								day.
+							</p>
+						</details>
+					</aside>
+
+					<br />
+
+					<table>
+						<caption>
+							My Daily Schedule
+						</caption>
+						<thead>
+							<tr>
+								<th>&nbsp;</th>
+								<th scope="col">Time</th>
+								<th scope="col">Activity</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<th scope="row">Morning</th>
+								<td>
+									<time datetime="03:00">3AM</time> -
+									<time datetime="06:00">6AM</time>
+								</td>
+								<td>Write Code</td>
+							</tr>
+
+							<tr>
+								<th scope="row">Break</th>
+								<td>
+									<time datetime="13:00">1PM</time> -
+									<time datetime="14:00">2PM</time>
+								</td>
+								<td>Eat Lunch</td>
+							</tr>
+
+							<tr>
+								<th scope="row">Afternoon</th>
+								<td>
+									<time datetime="14:00">2PM</time> -
+									<time datetime="17:00">5PM</time>
+								</td>
+								<td>Implement Learning</td>
+							</tr>
+
+							<tr>
+								<th scope="row">Evening</th>
+								<td rowspan="2">ALl Other Times</td>
+								<td>Free Time</td>
+							</tr>
+
+							<tr>
+								<th scope="row">Night</th>
+								<td>Sleep</td>
+							</tr>
+						</tbody>
+
+						<tfoot>
+							<tr>
+								<td colspan="3">
+									And, that what I do every day. Eat, Sleep,
+									Code Repeat...
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</section>
+			</article>
+
+			<hr />
+
+			<article id="vacation">
+				<h2>I Am Also Planning For a Vacation</h2>
+				<p>
+					I've been working hard and
+					<em>really need a getaway.</em>
+				</p>
+				<p>I live in Ghaziabad, UttarPradesh, India.</p>
+				<p>I want to visit South Indian Culture.</p>
+
+				<section>
+					<!-- add places you want to visit -->
+					<h3>Places I'd Like to Visit</h3>
+					<ul>
+						<li>
+							<p>South India</p>
+
+							<figure>
+								<img
+									src="Img/south-india.jpg"
+									alt="South Indian View"
+									title="South Indian View"
+									width="300"
+									height="300"
+									loading="lazy" />
+
+								<figcaption>South India Getaway.</figcaption>
+							</figure>
+						</li>
+
+						<li>
+							<p>I've heard good things about here :</p>
+
+							<address>
+								Lonavala - Khandal, Maharashtra <br />
+								Gokarna, Karnataka <br />
+								Kasauli, Himachal Pradesh
+							</address>
+
+							<figure>
+								<img
+									src="Img/vacation-image.jpg"
+									alt="My Vacation"
+									title="It's around 10 o'Clock at the beach."
+									width="300"
+									height="300"
+									loading="lazy" />
+
+								<figcaption>My vacation Image</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<!-- add places you want to avoid -->
+					<h3>Places I Want to Avoid</h3>
+					<dl>
+						<dt>East Antarctica Plateau :</dt>
+						<dd>
+							I heard this is the <strong>coldest</strong> place
+							on Earth.
+						</dd>
+
+						<dt>Death Valley :</dt>
+						<dd>
+							I heard this is the <strong>hottest</strong> place
+							on Earth.
+						</dd>
+
+						<dt>Snake Island :</dt>
+						<dd>I heard there are 5 snakes per square meter.</dd>
+					</dl>
+				</section>
+			</article>
+
+			<hr />
+
+			<article id="contact">
+				<h2>Contact Me</h2>
+				<p>I'd really like to hear from you!</p>
+
+				<!-- form element is used to make a form. -->
+				<!-- 'action' attribute take the place where to open the form.-->
+				<form action="https://httpbin.org/get" method="get">
+					<!-- fieldset element is used to group the elements together.-->
+					<fieldset>
+						<!-- legend element is used to give caption for the grouped elements. -->
+						<legend>Personal Information</legend>
+						<p>
+							<label for="firstName">First Name :</label>
+							<input
+								type="text"
+								name="firstName"
+								id="firstName"
+								placeholder="Enter your first name"
+								autocomplete="on"
+								required
+								autofocus />
+						</p>
+
+						<p>
+							<label for="lastName">Last Name :</label>
+							<input
+								type="text"
+								name="lastName"
+								id="lastName"
+								placeholder="Enter your last name"
+								autocomplete="on"
+								required />
+						</p>
+
+						<p>
+							<label for="password">Password :</label>
+							<input
+								type="password"
+								name="password"
+								id="password"
+								placeholder="Enter your password"
+								required />
+						</p>
+
+						<p>
+							<label for="phone">Phone :</label>
+							<input
+								type="tel"
+								name="phone"
+								id="phone"
+								placeholder="Enter your phone number"
+								pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+								required />
+						</p>
+
+						<p>
+							<label for="decade">Favorite decade :</label>
+							<input
+								type="number"
+								name="decade"
+								id="decade"
+								min="1947"
+								max="2023"
+								step="10"
+								value="1980" />
+						</p>
+
+						<p>
+							<label for="coffee">Favorite Coffee</label>
+							<select name="coffee" id="coffee" multiple size="5">
+								<optgroup label="Normal Coffees">
+									<option value="coffee">
+										Regular Coffee
+									</option>
+									<option value="iced coffee">
+										Iced Coffee
+									</option>
+								</optgroup>
+
+								<optgroup label="Special Coffees">
+									<option value="latte">Latte</option>
+									<option value="cappuccino" selected>
+										Cappuccino
+									</option>
+									<option value="espresso">Espresso</option>
+									<option value="americano">Americano</option>
+								</optgroup>
+
+								<option value="other">Other</option>
+							</select>
+						</p>
+
+						<p>
+							<label for="sport">Favorite Sport</label>
+							<input
+								type="text"
+								name="sport"
+								id="sport"
+								list="sport-list" />
+							<datalist id="sport-list">
+								<option value="Cricket"></option>
+								<option value="Football"></option>
+								<option value="Volleyball"></option>
+								<option value="Basketball"></option>
+								<option value="Hockey"></option>
+								<option value="Rugby"></option>
+								<option value="Kabaddi"></option>
+							</datalist>
+						</p>
+					</fieldset>
+
+					<br />
+
+					<fieldset>
+						<legend>What is your favorite food?</legend>
+						<p>
+							<input
+								type="radio"
+								name="food"
+								id="tacos"
+								value="tacos" />
+							<label for="tacos">Tacos</label>
+						</p>
+
+						<p>
+							<input
+								type="radio"
+								name="food"
+								id="pizza"
+								value="Pizza" />
+							<label for="pizza">Pizza</label>
+						</p>
+
+						<p>
+							<input
+								type="radio"
+								name="food"
+								id="other"
+								value="other" />
+							<label for="other">Other</label>
+						</p>
+					</fieldset>
+
+					<br />
+
+					<fieldset>
+						<legend>Do you have pets?</legend>
+						<p>
+							<input
+								type="checkbox"
+								name="pets"
+								id="dog"
+								value="dog" />
+							<label for="dog">Dog</label>
+						</p>
+
+						<p>
+							<input
+								type="checkbox"
+								name="pets"
+								id="cat"
+								value="cat" />
+							<label for="cat">Cat</label>
+						</p>
+
+						<p>
+							<input
+								type="checkbox"
+								name="pets"
+								id="horse"
+								value="horse" />
+							<label for="horse">Horse</label>
+						</p>
+
+						<p>
+							<input
+								type="checkbox"
+								name="pets"
+								id="others"
+								value="others" />
+							<label for="others">Other</label>
+						</p>
+					</fieldset>
+
+					<br />
+
+					<fieldset>
+						<legend>Send me a note.</legend>
+						<label for="message">Your Message:</label>
+						<br />
+						<textarea
+							name="message"
+							id="message"
+							cols="30"
+							rows="10"
+							placeholder="Type your message here"></textarea>
+					</fieldset>
+
+					<br />
+
+					<button type="submit">Submit</button>
+					<button
+						type="submit"
+						formaction="https://httpbin.org/post"
+						formmethod="post">
+						Post
+					</button>
+					<button type="reset">Reset</button>
+				</form>
+			</article>
+		</main>
+
+		<hr />
+
+		<!-- footer section -->
+		<footer>
+			<p>
+				&lt;&lt;&lt;&copy;
+				<a href="about.html">Utkarsh Yadav</a> &gt;&gt;&gt;
+			</p>
+
+			<p>
+				<a href="#">Back to Top</a>
+			</p>
+		</footer>
+	</body>
+</html>
